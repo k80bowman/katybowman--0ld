@@ -12,7 +12,16 @@ p {
 /*HEADER*/
 
 .name {
-  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-size: 4em;
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.logo {
+  float: left;
+  margin: 20px;
 }
 
 .header {

@@ -10,18 +10,23 @@ p {
 }
 
 /*HEADER*/
-
+.top {
+  height: 90px;
+}
 .name {
   font-family: "Raleway", sans-serif;
-  font-size: 4em;
+  font-size: 5em;
   float: right;
   margin-right: 20px;
-  margin-top: 20px;
+  margin-top: 5px;
+  z-index: 10;
 }
 
 .logo {
   float: left;
-  margin: 20px;
+  margin-top: 10px;
+  margin-left: 40px;
+  z-index: 10;
 }
 
 .header {
@@ -32,7 +37,7 @@ p {
 .menu {
   font-family: "Raleway", sans-serif;
   font-style: 300;
-  font-size: 1.5em;
+  font-size: 1.2em;
 }
 
 .navbar {
@@ -43,8 +48,14 @@ p {
 
 .nav {
   text-align: center;
+  margin: none;
 }
 
 .owl {
-  max-width: 30%;
+  max-width: 35%;
+}
+
+.navigation {
+  background-color: #f4f9ef;
+  z-index: -1;
 }

@@ -12,13 +12,14 @@ p {
 /*HEADER*/
 .top {
   height: 90px;
+  box-shadow: 0px 3px 7px #c2dfa8;
 }
 .name {
   font-family: "Raleway", sans-serif;
   font-size: 5em;
-  float: right;
-  margin-right: 20px;
-  margin-top: 5px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
   z-index: 10;
 }
 
@@ -52,10 +53,15 @@ p {
 }
 
 .owl {
-  max-width: 35%;
+  max-width: 100px;
 }
 
 .navigation {
   background-color: #f4f9ef;
   z-index: -1;
+}
+
+#navigation {
+  z-index: 10;
+  float: right;
 }

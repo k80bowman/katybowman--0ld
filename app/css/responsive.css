@@ -1,0 +1,6 @@
+@media (min-width: 700px) {
+  .name { font-size: 5.61em; margin-top: 6px; margin-left: 50px; }
+  .owl { max-width: 100px; }
+  .top { height: 90px; }
+  .logo { margin-top: 10px; margin-left: 40px; }
+}

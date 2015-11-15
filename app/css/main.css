@@ -1,6 +1,6 @@
 body {
  font-size: 14px;
- background-color: #f4f9ef;
+ background-color: #e9efe6;
 }
 h1,h2,h3,h4,h5,h6,p {
  line-height: 1.45;
@@ -23,12 +23,11 @@ p {
 /*HEADER*/
 .top {
   height: 50px;
-  box-shadow: 0px 3px 7px #c2dfa8;
+  box-shadow: 0px 3px 7px #8eac7c;
   background-color: white;
 }
 
 .name {
-  position: relative;
   font-family: "Raleway", sans-serif;
   font-size: 3.016em;
   float: left;
@@ -71,13 +70,10 @@ p {
 }
 
 .navigation {
-  position: relative;
-  background-color: #f4f9ef;
+  background-color: #e9efe6;
   z-index: -1;
 }
 
 .navLink {
-  position: relative;
-  z-index: 100;
   float: right;
 }

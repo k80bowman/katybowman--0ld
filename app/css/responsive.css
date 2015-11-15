@@ -4,3 +4,16 @@
   .top { height: 90px; }
   .logo { margin-top: 10px; margin-left: 40px; }
 }
+
+@media (min-width: 1110px) {
+  .navLink { padding-top: 30px;}
+}
+
+@media (min-width: 441px) {
+  .navbar-header { padding-top: 20px; }
+}
+
+@media (min-width: 550px) {
+  .name { font-size: 4.02em; margin-left: 40px;}
+  .top { height: 65px; }
+}

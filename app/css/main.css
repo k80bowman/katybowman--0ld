@@ -69,11 +69,33 @@ p {
   max-width: 70px;
 }
 
-.navigation {
-  background-color: #e9efe6;
-  z-index: -1;
+/*HOME*/
+
+.primary {
+  max-width: 80%;
+  height: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  background-color: white;
 }
 
-.navLink {
-  float: right;
+.primary:before, .primary:after {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 60px;
+  left: 45px;
+  width: 50%;
+  top: 80%;
+  max-width:80%;
+  background: rgba(142, 172, 124, 0.7);
+  box-shadow: 0 5px 10px rgba(142, 172, 124, 0.7);
+  transform: rotate(-3deg);
+}
+
+.primary:after {
+  transform: rotate(3deg);
+  right: 45px;
+  left: auto;
 }

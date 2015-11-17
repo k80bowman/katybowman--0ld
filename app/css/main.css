@@ -20,6 +20,18 @@ p {
   color: #303030;
 }
 
+a {
+  color: #303030;
+}
+
+a:hover, a:active {
+  text-decoration: none;
+  font-weight: normal;
+  color: #de6d26;
+}
+
+
+
 /*HEADER*/
 .top {
   height: 50px;
@@ -73,29 +85,34 @@ p {
 
 .primary {
   max-width: 80%;
-  height: 300px;
+  height: 320px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 30px;
   background-color: white;
 }
 
-.primary:before, .primary:after {
-  z-index: -1;
-  position: absolute;
-  content: "";
-  bottom: 60px;
-  left: 45px;
-  width: 50%;
-  top: 80%;
-  max-width:80%;
-  background: rgba(142, 172, 124, 0.7);
-  box-shadow: 0 5px 10px rgba(142, 172, 124, 0.7);
-  transform: rotate(-3deg);
+.primaryQuote {
+  font-family: "Merriweather";
+  font-size: 1.333em;
+  padding: 20px 20px 0px 20px;
 }
 
-.primary:after {
-  transform: rotate(3deg);
-  right: 45px;
-  left: auto;
+.line {
+  width: 80%;
+  height: 1px;
+  background-color: #8eac7c;
+  margin: 15px auto;
+}
+
+.primarySource {
+  font-family: "Raleway";
+  font-size: 1.273em;
+  text-align: center;
+  padding: 0px 20px;
+}
+
+.primaryType {
+  color: #8eac7c;
+  padding-top: 10px;
 }

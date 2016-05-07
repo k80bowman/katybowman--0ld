@@ -1,26 +1,25 @@
 body {
  font-size: 16px;
- background-color: #F0F7EA;
+ background-color: #fefefa;
 }
+
 h1,h2,h3,h4,h5,h6,p {
  line-height: 1.45;
 }
+
 h1 { font-size: 3.157em; }
+
 h2 { font-size: 2.369em; }
+
 h3 { font-size: 1.777em;}
 
 h1, h2, h3 {
-  font-family: "Six Caps", sans-serif;
-  font-style: 300;
-  color: #472e15;
+  font-family: "Oswald", sans-serif;
+  color: #134E25;
 }
 
-p {
+p, a {
   font-family: "Merriweather", serif;
-  color: #303030;
-}
-
-a {
   color: #303030;
 }
 
@@ -33,36 +32,34 @@ a:hover, a:active {
 
 
 /*HEADER*/
-.top {
-  height: 115px;
-  box-shadow: 0px 3px 10px #377A5A;
-  background-color: #FBFBFB;
+.header-container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
 }
 
 .name {
-  font-family: "Six Caps", sans-serif;
-  font-size: 100px;
-  text-align: center;
-  margin-left: -150;
-  z-index: 10;
+    font-family: "Oswald", sans-serif;
+    font-size: 125px;
+    color: #fefefa;
+    text-shadow: 0 1px 2px rgba(0,0,0,.25);
+    text-align: center;
+    line-height: 1;
 }
 
 .logo {
-  position: absolute;
-  margin-top: 5px;
-  margin-left: 20px;
-  z-index: 5;
-}
-
-.header {
-  margin: auto;
-  max-width: 100%;
-}
-
-.menu {
-  font-family: "Six Caps", sans-serif;
-  font-style: 300;
-  font-size: 1.333em;
+    background-color: #fefefa;
+    height: 115px;
+    width: 115px;
+    border-radius: 100px;
+    text-align: center;
+    margin: 10px auto 0 auto;
+    position: relative;
 }
 
 .navbar {
@@ -71,13 +68,46 @@ a:hover, a:active {
   box-shadow: none;
 }
 
-.nav {
-  text-align: center;
-  margin: none;
+.navbar-default .navbar-nav li a {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.75em;
+    color: #fefefa;
+    text-shadow: 0 1px 2px rgba(0,0,0,.25);
+}
+
+.navbar-default .navbar-nav li a:hover {
+    color: #fefefa;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.25);
+    border-bottom: 2px solid #DE6B20;
 }
 
 .owl {
-  max-width: 150px;
+    max-width: 75px;
+}
+
+.site-header {
+    height: 300px;
+    background-color: #8EAC7B;
+}
+
+ul.nav {
+    width: 940px;
+    list-style: none;
+    overflow: hidden;
+    margin: -100px auto 25px auto;
+}
+
+ul.nav li:nth-child(1) {
+	margin: 0 60px 0 0;
+}
+ul.nav li:nth-child(2) {
+	margin: 0 316px 0 0;
+}
+ul.nav li:nth-child(3) {
+	margin: 0 60px 0 0;
+}
+ul.nav li:nth-child(4) {
+	margin: 0;
 }
 
 /*HOME*/
